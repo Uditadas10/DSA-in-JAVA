@@ -1,3 +1,14 @@
+/*
+PROBLEM: Check if the array is sorted or not
+
+APPROACH: 
+1.check for i->0 to n
+2.if a[i]<a[i+1] then
+3.sorted
+4.else
+5.unsorted
+
+*/
 import java.util.*;
 
 public class SortedArray {
