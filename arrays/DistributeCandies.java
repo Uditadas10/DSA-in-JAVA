@@ -1,3 +1,19 @@
+/*
+PROBLEM: distribute candies
+APPROACH:
+START
+create HashSet chocolates
+
+for each candy in candyType
+    add candy to chocolates
+
+unique ← size of chocolates
+maxAllowed ← length(candyType) / 2
+
+return min(unique, maxAllowed)
+END
+*/
+
 import java.util.HashSet;
 
 class DistributeCandies {
