@@ -1,3 +1,4 @@
+
     /*
     PROBLEM:
     Given an integer array nums, find the contiguous subarray
@@ -31,7 +32,7 @@
     Time Complexity: O(n)
     Space Complexity: O(1)
     */
-class Solution {
+class Solution{
     public int maxSubArray(int[] nums) {
 
         int currentSum = nums[0];
