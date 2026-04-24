@@ -1,3 +1,30 @@
+/*
+PROBLEM:
+Detect whether a singly linked list contains a cycle.
+
+A cycle exists if some node in the list can be reached again
+by continuously following the next pointer.
+
+APPROACH:
+We use Floyd’s Cycle Detection Algorithm (Tortoise and Hare).
+
+1. Initialize two pointers:
+   - slow moves one step at a time
+   - fast moves two steps at a time
+
+2. Traverse the list:
+   - If fast reaches null → no cycle
+   - If fast and slow meet → cycle exists
+
+3. Return true if pointers meet, otherwise false.
+
+TIME COMPLEXITY:
+O(n)
+
+SPACE COMPLEXITY:
+O(1)
+*/
+
 public class HasCycle {
     public static class ListNode{
         int data;
